@@ -36,6 +36,8 @@ socket.on("command", (msg, channel) => {
         let newchannel = "global";
         socket.emit("leave", channel);
         updateChannel(newchannel);
+    } else if (msg.startsWith("/howmany")) {
+        socket.emit("howmany");
     } else if (msg.startsWith("/help")) {
         serverMessage(
             "Nice try hackerman!"
