@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+form {
+    background: #050505;
+    padding: 1%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+form input {
+    border: 0;
+    padding: 1%;
+    margin-right: 0.5%;
+}
+form #nickname {
+    width: 100%;
+    margin: 0.5%;
+}
+form #m {
+    width: 100%;
+    margin: 0.5%;
+}
+form button {
+    width: 10%;
+    background: coral;
+    border: none;
+    padding: 10px;
+}
+
+#box{
+    padding: 4px;
+    border: 2px solid black;
+}
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#messages li {
+    padding: 5px 10px;
+}
+#messages li:nth-child(odd) {
+    background: #eee;
+}
+
+.white {
+    color: white;
+}
